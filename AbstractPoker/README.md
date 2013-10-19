@@ -8,7 +8,7 @@ Dar inainte de a fi comparate, ele trebuie mai intai categorisite folosind un al
 
 **Poker-ul abstract** este o varianta imaginara a jocului de poker, in care un pachet de carti nu are 52 de carti (cate 13 pentru fiecare culoare), ci 4000 de carti (numerotate de la 1 la 1000 pentru fiecare culoare).
 
-Esenta poker-ului abstract consta tocmai in proiectarea algoritmului de clasificare mentionat mai sus. In poker-ul abstract, o mana consta dintr-un set de 5 numere intregi cuprinse intre 1 si 1000, iar culoarea unei carti nu este luata deloc in considerare la clasificarea unei maini.
+Esenta poker-ului abstract consta tocmai in proiectarea algoritmului de clasificare mentionat mai sus. In poker-ul abstract, o mana consta dintr-un set de 5 numere intregi cuprinse intre 1 si 1000, iar culoarea unei carti nu este luata aproape deloc in considerare la clasificarea unei maini (singura situatie in care se tine - in mod indirect - cont de culoare este restrictia ca nu pot exista 5 carti cu acelasi numar, evident din cauza ca exista doar 4 culori).
 
 Iata lista tuturor mainilor posibile in poker-ul abstract:
 
