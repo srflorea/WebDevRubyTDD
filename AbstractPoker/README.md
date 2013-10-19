@@ -42,5 +42,5 @@ Exemplu:
 Mana `[8,3,3,8,3]` contine 2 carti de-un fel si 3 de-un fel, deci este full house
 
 Pentru rezolvarea problemei, se va de-comenta prima metoda de test din fisierul `testsuite.rb`, se va rula suita de teste cu comanda `ruby testsuite.rb`, verificand ca pica testul, apoi se va implementa in `abstractpoker.rb` o bucatica de algoritm care face testul sa treaca. Apoi se va relua ciclul, trecand la a doua metoda (de-comentare, verificare ca pica, implementare de algoritm).  
-Problema se considera rezolvata atunci cand toate testele sunt fi de-comentate si "pe verde".  
+Problema se considera rezolvata atunci cand toate testele sunt de-comentate si "pe verde".  
 Abordarea de mai sus are avantajul ca simuleaza foarte indeaproape metodologia TDD (Test-Driven Development) folosita pe larg in industria software.
