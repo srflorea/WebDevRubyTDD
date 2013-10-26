@@ -3,7 +3,6 @@ require './abstractpoker.rb'
 
 class TestAbstractPoker < Test::Unit::TestCase
 
-=begin
   # High Card means either three or four consecutive numbers
   # Testing three consecutive numbers now
   def test_high_card_scenario_3
@@ -11,7 +10,7 @@ class TestAbstractPoker < Test::Unit::TestCase
     poker_hand = [7,2,6,9,5]
 
     # Act (a.k.a. apply transformation)
-    classified_as = classify_poker_hand(poker_hand)
+    classified_as = classify_poker_hand(poker_hand) 
 
     # Assert
     # (a.k.a. state our expectation about the result of the transformation)
@@ -21,9 +20,7 @@ class TestAbstractPoker < Test::Unit::TestCase
       failure_message = 'A poker hand of [7,2,6,9,5] is not classified as high card'
     )
   end # def test_high_card_scenario_3
-=end
 
-=begin
   # High Card means either three or four consecutive numbers
   # Testing four consecutive numbers now
   def test_high_card_scenario_4
@@ -41,7 +38,6 @@ class TestAbstractPoker < Test::Unit::TestCase
       failure_message = 'A poker hand of [7,4,6,9,5] is not classified as high card'
     )
   end # def test_high_card_scenario_4
-=end
 
 =begin
   def test_one_pair_scenario
