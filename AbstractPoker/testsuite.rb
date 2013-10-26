@@ -39,7 +39,6 @@ class TestAbstractPoker < Test::Unit::TestCase
     )
   end # def test_high_card_scenario_4
 
-=begin
   def test_one_pair_scenario
     # Arrange (a.k.a. define input)
     poker_hand = [4,3,5,8,3]
@@ -55,9 +54,7 @@ class TestAbstractPoker < Test::Unit::TestCase
       failure_message = 'A poker hand of [4,3,5,8,3] is not classified as one pair'
     )
   end # def test_one_pair_scenario
-=end
 
-=begin
   def test_two_pairs_scenario
     # Arrange (a.k.a. define input)
     poker_hand = [8,3,5,8,3]
@@ -73,9 +70,7 @@ class TestAbstractPoker < Test::Unit::TestCase
       failure_message = 'A poker hand of [8,3,5,8,3] is not classified as two pairs'
     )
   end # def test_two_pairs_scenario
-=end
 
-=begin
   def test_three_of_a_kind_scenario
     # Arrange (a.k.a. define input)
     poker_hand = [5,9,5,7,5]
@@ -91,7 +86,6 @@ class TestAbstractPoker < Test::Unit::TestCase
       failure_message = 'A poker hand of [5,9,5,7,5] is not classified as three of a kind'
     )
   end # def test_three_of_a_kind_scenario
-=end
 
 =begin
   # Straight means five consecutive numbers
